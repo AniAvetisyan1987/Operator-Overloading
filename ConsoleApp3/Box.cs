@@ -37,10 +37,6 @@ namespace ConsoleApp3
             int maxLen = b1.len > b2.len ? b1.len : b2.len;
             Array.Resize<int>(ref b1.arr, maxLen);
             Array.Resize<int>(ref b2.arr, maxLen);
-            if (b1.len > b2.len)
-            {
-
-            }
             Box box = new Box();
             box.arr = new int[maxLen];
 
